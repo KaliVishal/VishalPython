@@ -17,7 +17,7 @@ def tick(time1=''):
 
 root=tk.Tk()
 root.title('digital clock')
-clock_frame = tk.Label(root, font=('times', 100, 'bold'), bg='black' , fg='green')
+clock_frame = tk.Label(root, font=('times', 100, 'bold'), bg='white' , fg='black')
 clock_frame.pack(fill='both' , expand=1)
 root.geometry('700x500')
 tick()
